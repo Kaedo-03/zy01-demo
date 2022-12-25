@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>zy01</title>
+		<style>
+			div{
+				border-style: solid;
+				width: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<a onclick="openWin()" href="">注册 |</a>
+			<a onclick="openWi()" href="">登录</a>
+			<p>这是主页面</p>
+		</div>
+		<script>
+			function openWin(){
+				myWindow=window.open('newwindow.html','','width=200,height=100');
+				myWindow.foces();
+			}
+			function openWi(){
+				myWindow=window.open('windowtwo.html','','width=200,height=100');
+				myWindow.foces();
+			}
+		</script>
+	</body>
+</html>
